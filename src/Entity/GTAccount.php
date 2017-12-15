@@ -3,6 +3,9 @@ namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
+/**
+ * @ORM\Entity
+ */
 class GTAccount{
     /**
      * @ORM\Id
